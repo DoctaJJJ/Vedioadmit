@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from app.utils.Common import buildPageLabels
 
 
+#报警视频
 def web_alarms(request):
     context = {
     }

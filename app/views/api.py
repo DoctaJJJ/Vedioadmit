@@ -2,7 +2,7 @@ from app.models import *
 from app.views.ViewsBase import *
 from app.utils.OSInfo import OSInfo
 
-
+##布控相关
 def public_deleteAlarm(alarm_id):
     # 删除报警视频对应的数据库数据以及文件数据
     try:

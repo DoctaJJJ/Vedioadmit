@@ -20,9 +20,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # app/ -> Genetelella UI and resources
-    # path(r'^app/', include('app.urls')),
-    path(r'', include('app.urls')),
+    path(r'', include('app.urls')),  # 通配符规则，它将所有未匹配到其他规则的 URL 映射到名为 app的 urls.py 文件
 ]
 
 urlpatterns += staticfiles_urlpatterns()

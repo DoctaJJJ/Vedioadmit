@@ -6,7 +6,7 @@ from .views import AlarmView
 from .views import StreamView
 from .views.api import *
 
-
+# url对应views中的相应函数
 app_name = 'app'
 
 urlpatterns = [
